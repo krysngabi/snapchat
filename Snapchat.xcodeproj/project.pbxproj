@@ -18,13 +18,19 @@
 		CEA8EC01249B5107004A6452 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8EC00249B5107004A6452 /* ContactsViewController.swift */; };
 		CEC6B8F0249DD974005A2273 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6B8EF249DD974005A2273 /* PictureViewController.swift */; };
 		CEC6B8F2249DF09F005A2273 /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6B8F1249DF09F005A2273 /* SelectUserViewController.swift */; };
+		CEC6B8F4249EA3F4005A2273 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC6B8F3249EA3F4005A2273 /* User.swift */; };
+		CED74EDD249ED04D0069EBCE /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74EDC249ED04D0069EBCE /* Snap.swift */; };
+		CED74EDF249ED8A00069EBCE /* ViewSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74EDE249ED8A00069EBCE /* ViewSnapViewController.swift */; };
+		CED74EE3249F321F0069EBCE /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CED74EE2249F321F0069EBCE /* bg.jpg */; };
+		CED74EE5249F44680069EBCE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74EE4249F44680069EBCE /* SignUpViewController.swift */; };
+		CED74EE7249F54140069EBCE /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED74EE6249F54140069EBCE /* SpinnerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E881C18BC2CB38A0AB4F3F2 /* Pods_Snapchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7C693FBDB47FDE6A5FE991 /* Pods-Snapchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.release.xcconfig"; path = "Target Support Files/Pods-Snapchat/Pods-Snapchat.release.xcconfig"; sourceTree = "<group>"; };
 		CBF1315C063656F8BBC2A644 /* Pods-Snapchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat.debug.xcconfig"; path = "Target Support Files/Pods-Snapchat/Pods-Snapchat.debug.xcconfig"; sourceTree = "<group>"; };
-		CE3E84B6249B2ACE00CA9E9F /* Snapchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3E84B6249B2ACE00CA9E9F /* SnapME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3E84B9249B2ACF00CA9E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE3E84BB249B2ACF00CA9E9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CE3E84BD249B2ACF00CA9E9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +42,12 @@
 		CEA8EC00249B5107004A6452 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		CEC6B8EF249DD974005A2273 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
 		CEC6B8F1249DF09F005A2273 /* SelectUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
+		CEC6B8F3249EA3F4005A2273 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CED74EDC249ED04D0069EBCE /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		CED74EDE249ED8A00069EBCE /* ViewSnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSnapViewController.swift; sourceTree = "<group>"; };
+		CED74EE2249F321F0069EBCE /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg.jpg; path = ../../../Downloads/bg.jpg; sourceTree = "<group>"; };
+		CED74EE4249F44680069EBCE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CED74EE6249F54140069EBCE /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 		CE3E84AD249B2ACE00CA9E9F = {
 			isa = PBXGroup;
 			children = (
+				CED74EE2249F321F0069EBCE /* bg.jpg */,
 				CE3E84B8249B2ACE00CA9E9F /* Snapchat */,
 				CE3E84B7249B2ACE00CA9E9F /* Products */,
 				61A039B95DA19DE0CEDA3782 /* Pods */,
@@ -80,7 +93,7 @@
 		CE3E84B7249B2ACE00CA9E9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE3E84B6249B2ACE00CA9E9F /* Snapchat.app */,
+				CE3E84B6249B2ACE00CA9E9F /* SnapME.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -88,19 +101,40 @@
 		CE3E84B8249B2ACE00CA9E9F /* Snapchat */ = {
 			isa = PBXGroup;
 			children = (
+				CEC6B8F7249EA4A9005A2273 /* Models */,
+				CEC6B8F5249EA414005A2273 /* ViewControllers */,
 				CE3E84B9249B2ACF00CA9E9F /* AppDelegate.swift */,
 				CE3E84BB249B2ACF00CA9E9F /* SceneDelegate.swift */,
-				CE3E84BD249B2ACF00CA9E9F /* ViewController.swift */,
 				CE3E84BF249B2ACF00CA9E9F /* Main.storyboard */,
-				CEC6B8F1249DF09F005A2273 /* SelectUserViewController.swift */,
-				CEC6B8EF249DD974005A2273 /* PictureViewController.swift */,
-				CEA8EC00249B5107004A6452 /* ContactsViewController.swift */,
 				CE3E84C2249B2AD300CA9E9F /* Assets.xcassets */,
 				CE3E84C4249B2AD300CA9E9F /* LaunchScreen.storyboard */,
 				CE3E84CD249B2F6300CA9E9F /* GoogleService-Info.plist */,
 				CE3E84C7249B2AD300CA9E9F /* Info.plist */,
 			);
 			path = Snapchat;
+			sourceTree = "<group>";
+		};
+		CEC6B8F5249EA414005A2273 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE3E84BD249B2ACF00CA9E9F /* ViewController.swift */,
+				CEC6B8F1249DF09F005A2273 /* SelectUserViewController.swift */,
+				CEC6B8EF249DD974005A2273 /* PictureViewController.swift */,
+				CEA8EC00249B5107004A6452 /* ContactsViewController.swift */,
+				CED74EDE249ED8A00069EBCE /* ViewSnapViewController.swift */,
+				CED74EE4249F44680069EBCE /* SignUpViewController.swift */,
+				CED74EE6249F54140069EBCE /* SpinnerViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CEC6B8F7249EA4A9005A2273 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEC6B8F3249EA3F4005A2273 /* User.swift */,
+				CED74EDC249ED04D0069EBCE /* Snap.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +156,7 @@
 			);
 			name = Snapchat;
 			productName = Snapchat;
-			productReference = CE3E84B6249B2ACE00CA9E9F /* Snapchat.app */;
+			productReference = CE3E84B6249B2ACE00CA9E9F /* SnapME.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,6 +200,7 @@
 				CE3E84C6249B2AD300CA9E9F /* LaunchScreen.storyboard in Resources */,
 				CE3E84CE249B2F6300CA9E9F /* GoogleService-Info.plist in Resources */,
 				CE3E84C3249B2AD300CA9E9F /* Assets.xcassets in Resources */,
+				CED74EE3249F321F0069EBCE /* bg.jpg in Resources */,
 				CE3E84C1249B2ACF00CA9E9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,12 +254,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED74EE7249F54140069EBCE /* SpinnerViewController.swift in Sources */,
 				CE3E84BE249B2ACF00CA9E9F /* ViewController.swift in Sources */,
 				CEA8EC01249B5107004A6452 /* ContactsViewController.swift in Sources */,
 				CE3E84BA249B2ACF00CA9E9F /* AppDelegate.swift in Sources */,
 				CEC6B8F2249DF09F005A2273 /* SelectUserViewController.swift in Sources */,
+				CED74EE5249F44680069EBCE /* SignUpViewController.swift in Sources */,
 				CE3E84BC249B2ACF00CA9E9F /* SceneDelegate.swift in Sources */,
 				CEC6B8F0249DD974005A2273 /* PictureViewController.swift in Sources */,
+				CEC6B8F4249EA3F4005A2273 /* User.swift in Sources */,
+				CED74EDF249ED8A00069EBCE /* ViewSnapViewController.swift in Sources */,
+				CED74EDD249ED04D0069EBCE /* Snap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +344,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = SnapME;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -357,6 +398,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = SnapME;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -370,13 +412,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q85245ARV;
 				INFOPLIST_FILE = Snapchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.smartit243.Snapchat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SnapME;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,13 +431,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6Q85245ARV;
 				INFOPLIST_FILE = Snapchat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.smartit243.Snapchat;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SnapME;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
